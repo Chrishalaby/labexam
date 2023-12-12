@@ -1,0 +1,175 @@
+
+
+.main-screen {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  height: 70vh;
+  background-image: url('../assets/images/main.png');
+  background-size: cover;
+}
+
+.main-screen-buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 10rem;
+}
+
+.main-screen-buttons button{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main-screen-buttons button:hover{
+  color: #ff8800;
+}
+
+
+.main-header{
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+
+.main-header h1{
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.screen {
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+}
+
+.second-screen-image {
+  position: relative;
+  margin-top: 7rem;
+  width: 40%;
+  height: 72vh;
+}
+
+.second-screen-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.second-screen-image-overlay {
+  position: absolute;
+  bottom: -50%;
+  right: -30%;
+  width: 90%;
+  height: 70%;
+  background-color: white;
+}
+
+
+.overlay-context{
+  padding: 2.5rem;
+}
+
+h2{
+  margin-top: 2rem;
+  font-size: 50px;
+  font-weight:bolder
+}
+
+.overlay-context-p{
+  font-size: 20px;
+  margin-top: 0.3rem;
+  color: #ff8800;
+}
+
+.overlay-context-lorem{
+padding-top: 1rem ;
+line-height: 3rem;
+font-size: large;
+}
+
+
+.third-screen-image {
+  position: relative;
+  margin-top: 10rem;
+  margin-left: 33%;
+  width: 40%;
+  height: 72vh;
+}
+
+
+.third-screen-image-overlay {
+  position: absolute;
+  bottom: -60%;
+  left: -40%;
+  width: 90%;
+  height: 70%;
+  background-color: white;
+}
+
+
+
+.fourth-screen-image {
+  position: relative;
+  margin-top: 15rem;
+  margin-left: -40%;
+  width: 40%;
+  height: 72vh;
+}
+
+
+.fourth-screen-image-overlay {
+  position: absolute;
+  bottom: -40%;
+  left: 75%;
+  width: 90%;
+  height: 70%;
+  background-color: white;
+}
+
+
+
+.fith-screen-image {
+  position: relative;
+  margin-top: 20rem;
+  width: 40%;
+  height: 100vh;
+}
+
+
+.fith-screen-image-overlay {
+  position: absolute;
+  // bottom: -40%;
+  top: 40%;
+  left: -40%;
+  width: 95%;
+  height: 50%;
+  background-color: white;
+}
+
+
+.join-team{
+  margin-top: 20rem;
+  height: 120vh;
+  background-color: #ffffff;
+  padding: 10rem;
+}
+
+.join-team-header-container{
+  background-image: url('../assets/images/OURTEAM.png');
+  background-size: cover;
+  height: 10rem;
+  ;
+}
